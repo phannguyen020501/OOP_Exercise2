@@ -13,12 +13,12 @@ public class Main {
 		Scanner sc6=new Scanner(System.in);
 		Scanner sc7=new Scanner(System.in);
 		ManagerDocument managerdoc=new ManagerDocument();
-		Book book1=new Book(1,"kim dong", 1000, "nguyen", 90);
-		Magazine magazine1=new Magazine(2,"tiền phong", 2000, 3, 10);
-		Newspaper newspaper1=new Newspaper(3, "giáo dục", 300, 5);
-		managerdoc.addDocument(newspaper1);
-		managerdoc.addDocument(magazine1);
-		managerdoc.addDocument(book1);
+		//Book book1=new Book(1,"kim dong", 1000, "nguyen", 90);
+		//Magazine magazine1=new Magazine(2,"tiền phong", 2000, 3, 10);
+		//Newspaper newspaper1=new Newspaper(3, "giáo dục", 300, 5);
+		//managerdoc.addDocument(newspaper1);
+		//managerdoc.addDocument(magazine1);
+		//managerdoc.addDocument(book1);
 		while(true) {
 			System.out.println("Application Manger Officer");
 			System.out.println("Enter 1: To add officer");
